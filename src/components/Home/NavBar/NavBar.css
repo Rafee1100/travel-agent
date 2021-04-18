@@ -1,0 +1,27 @@
+.nav-bg{
+    background: linear-gradient(to right, #485563, #29323c);
+   /*background: linear-gradient(to right, #243B55, #141E30); */
+}
+.login{
+    background-color:rgb(233, 148, 51);
+    border-radius:5px;
+    
+}
+.login:hover{
+    background-color:rgb(165, 28, 158); 
+    text-decoration: none;
+   
+}
+.nav-btn:hover{
+    color:white;
+    transform:scale(1.1);
+    text-decoration: none;
+}
+.nav-btn{
+    color:grey;
+}
+.sign-in-image{
+    height:30px;
+    width:30px;
+    border-radius:50%
+}

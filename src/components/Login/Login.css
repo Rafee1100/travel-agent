@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+.sign-in{
+    height:100vh;
+    background: linear-gradient(to right, #003973, #e5e5be);
+}
+.sign-in-text h6,h1
+{
+    font-family: 'Roboto Mono', monospace;
+    color:#fdfdf3
+}
