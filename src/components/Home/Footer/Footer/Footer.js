@@ -9,8 +9,7 @@ const Footer = () => {
         { name: "Career", link: "/career" },
         { name: "Privacy Policy", link: "/policy" },
         { name: "Terms of Use", link: "/terms" },
-        { name: "Global Sitemap", link: "/global" },
-        { name: "Local Sitemap", link: "/local" }
+        { name: "Creative Agency", link: "/global" }
     ]
     const information = [
         { name: 'Press Center', link: '/press' },
@@ -29,8 +28,8 @@ const Footer = () => {
         { name: 'Sundarbans', link: '/sundarbans' },
         { name: "Sajek", link: "/sajek" },
         { name: "Saint Martin", link: "/saint" },
-        { name: "Potenga", link: "/potenga" },
-        { name: "Jaflong", link: "/jaflong" },
+        { name: "Switzerland", link: "/potenga" },
+        { name: "Bali", link: "/jaflong" },
     ]
     return (
         <footer className="footer-area">
@@ -46,7 +45,7 @@ const Footer = () => {
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon mx-2" size="2x" icon={faInstagram} /></a></li>
                         </div>
                         <div className="mt-2">
-                            <h6 className="text-primary">Query?</h6>
+                            <h6 className="text-white">Query?</h6>
                             <button className="btn btn-success">+0177874468</button>
                         </div>
                     </FooterCol>

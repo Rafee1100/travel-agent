@@ -11,7 +11,7 @@ const MakeAdmin = () => {
         const adminPanel = {
             email: admin
         };
-        const url = `http://localhost:5000/addAdmin`;
+        const url = `https://infinite-everglades-77889.herokuapp.com/addAdmin`;
 
         fetch(url, {
             method: 'POST',

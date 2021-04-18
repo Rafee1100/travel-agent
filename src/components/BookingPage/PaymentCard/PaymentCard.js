@@ -38,7 +38,7 @@ const PaymentCard = (props) => {
     }
 
 
-    const url = `http://localhost:5000/addDeals`;
+    const url = `https://infinite-everglades-77889.herokuapp.com/addDeals`;
     fetch(url, {
       method: 'POST',
       headers: {

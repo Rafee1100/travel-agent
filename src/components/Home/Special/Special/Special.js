@@ -6,8 +6,10 @@ import SpecialDataCard from '../SpecialDataCard/SpecialDataCard';
 const Special = () => {
   return (
     <div className="my-5">
-      <h1 style={{color:"black",fontWeight:'600'}} className="text-center mb-5">We care for</h1>
+      <h2 style={{color:"black",fontWeight:'600'}} className="text-center mt-5 mb-2">We care for</h2>
+      
       <Container>
+      <hr/>
         <Row className="">
           {
             datas.map(data => <SpecialDataCard data={data} key={data.id} />)

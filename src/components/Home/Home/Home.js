@@ -12,8 +12,8 @@ const Home = () => {
         <>
             <NavBar/>
             <Header/>
-            <Tour/>
             <Testimonial/>
+            <Tour/>
             <TeamMember/>
             <Special/>
             <Footer/>                     

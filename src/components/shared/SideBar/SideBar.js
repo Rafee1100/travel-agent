@@ -11,7 +11,7 @@ const SideBar = () => {
     const [isAdmin, setIsAdmin] = useState(false)
 
     useEffect(() => {
-        fetch('http://localhost:5000/isadmin', {
+        fetch('https://infinite-everglades-77889.herokuapp.com/isadmin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email })

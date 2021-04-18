@@ -6,7 +6,7 @@ const Tour = () => {
    const [tours, setTours] = useState([]);
 
    useEffect(() => {
-      fetch('http://localhost:5000/tours')
+      fetch('https://infinite-everglades-77889.herokuapp.com/tours')
          .then(res => res.json())
          .then(data => setTours(data))
    }, [tours._id])

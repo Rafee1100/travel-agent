@@ -7,7 +7,7 @@ const ManageProduct = () => {
     const [service, setService] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/tours')
+        fetch('https://infinite-everglades-77889.herokuapp.com/tours')
             .then(res => res.json())
             .then(data => setService(data))
     }, [])

@@ -8,7 +8,7 @@ const ManageProductItem = (props) => {
     const{_id,title,cost,duration}=props.data;
 
     const deleteService = (id) => {
-        const url = `http://localhost:5000/deleteService/${id}`
+        const url = `https://infinite-everglades-77889.herokuapp.com/deleteService/${id}`
         fetch(url, {
             method: 'DELETE',
         })
