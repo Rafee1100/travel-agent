@@ -19,11 +19,11 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Link className="mx-md-3 mx-auto text-none nav-btn" to="/home">Home</Link>
-                        <Link className="mx-md-3 mx-auto nav-btn" to="/about">About</Link>
-                        <Link className="mx-md-3 mx-auto nav-btn" to="/services">Projects</Link>
-                        <Link className="mx-md-3 mx-auto nav-btn" to="/dashboard">Dashboard</Link>
-                        <Link className="mx-md-3 mx-auto nav-btn" to="/admin">Admin</Link>
+                        <Link className="mx-md-3 mx-auto text-white nav-btn" to="/home">Home</Link>
+                        <Link className="mx-md-3 mx-auto text-white nav-btn" to="/about">About</Link>
+                        <Link className="mx-md-3 mx-auto text-white nav-btn" to="/services">Projects</Link>
+                        <Link className="mx-md-3 mx-auto text-white nav-btn" to="/dashboard">Dashboard</Link>
+                        <Link className="mx-md-3 mx-auto text-white nav-btn" to="/admin">Admin</Link>
 
                         {
                             isSignedInUser ? <Link className="mx-md-3 mx-auto text-white px-3 " to="/login"><img className="sign-in-image" src={photoURL} alt="" /></Link> :
