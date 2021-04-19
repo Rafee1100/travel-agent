@@ -1,16 +1,16 @@
 import React from 'react';
-import bgImg from '../../../images/HeaderImg.jpg'
 import './Header.css'
+import bgImg from '../../../images/servicingHome.jpg'
 
 const Header = () => {
     return (
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={bgImg} className="d-block w-100" alt=""/>
+                    <img src={bgImg} className="d-block w-100 bg-img" alt=""/>
                     <div class="carousel-caption d-flex justify-content-center align-items-center flex-column">
-                        <h2 style={{color:'black',fontWeight:'700'}}>Explore The World <br/>With TRAVEL GURU</h2>
-                        <p>Travel is the only thing you buy that makes you richer</p>
+                        <h2 style={{color:'white',fontWeight:'700'}}>Your Smooth journey <br/> Our Responsibility</h2>
+                        <p>Living in a Modern World</p>
                        <button className="btn btn-warning btn-lg mt-3">Visit Us</button>
                     </div>
                 </div>

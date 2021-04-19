@@ -22,7 +22,7 @@ const AddService = () => {
             duration: tourDuration,
             description: tourDescription
         };
-        const url = `https://infinite-everglades-77889.herokuapp.com/addTour`;
+        const url = `https://immense-sands-37830.herokuapp.com/addTour`;
 
         console.log(tourData)
         fetch(url, {

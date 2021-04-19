@@ -18,7 +18,7 @@ const Review = () => {
             from: from,
             quote: quote
         };
-        const url = `https://infinite-everglades-77889.herokuapp.com/addReview`;
+        const url = `https://immense-sands-37830.herokuapp.com/addReview`;
 
         console.log(reviewData)
         fetch(url, {

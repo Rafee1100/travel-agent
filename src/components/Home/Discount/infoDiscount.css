@@ -1,0 +1,14 @@
+.cart:hover{
+    border-radius: 8px;
+    box-shadow: 10px 10px 40px lightgray;
+}
+.cart{
+    padding: 15px;
+}
+.cart img{
+    border-radius: 15px;
+}
+.img-distCard{
+    width:80%;
+    height: 70%;
+}

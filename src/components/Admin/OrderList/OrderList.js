@@ -9,7 +9,7 @@ const OrderList = () => {
     const [order, setOrder] = useState([])
 
     useEffect(() => {
-        fetch('https://infinite-everglades-77889.herokuapp.com/getOrder', {
+        fetch('https://immense-sands-37830.herokuapp.com/getOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email })

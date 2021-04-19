@@ -21,7 +21,7 @@ const Booking = () => {
     const [booking, setBooking] = useState(false)
 
     useEffect(() => {
-        const url = `https://infinite-everglades-77889.herokuapp.com/tour/${id}`
+        const url = `https://immense-sands-37830.herokuapp.com/tour/${id}`
         console.log(url)
         fetch(url)
             .then(res => res.json())
