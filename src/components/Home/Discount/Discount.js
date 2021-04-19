@@ -3,7 +3,7 @@ import Kuakata from '../../../images/kuakata.jpg'
 import Sylhet from '../../../images/sylhet.jpg'
 import rangamati from '../../../images/rangamati.jpg'
 import sale from '../../../images/sale.png';
-import InfoDscount from '../Discount/InfoDiscount'
+import InfoDiscount from '../Discount/InfoDiscount'
 import {useSpring, animated} from 'react-spring'
 
 const discountInfo=[
@@ -30,18 +30,22 @@ const discountInfo=[
 
 const Discount = () => {
     const springProps = useSpring({
-        opacity: 0,
-        from: { opacity: 1 },
+        to: async (next, cancel) => {
+          await next({opacity: 1, color: 'red'})
+          await next({opacity: 1, color: 'rgb(14,26,19)'})
+        },
+        from: {opacity: 0, color: 'Darkblue'}
       })
     return (
         <section className="services-container mt-5">
             <div className="text-center">
-                <h2 style={{springProps}}>Today's Big Deal &nbsp; <img style={{height:'35px'}} src={sale} alt=""/></h2>
+            <animated.div style={springProps}> <h2>Today's Big Deal &nbsp; <img style={{height:'35px'}} src={sale} alt=""/></h2></animated.div>
+               
             </div>
             <div className="d-flex justify-content-center">
             <div className="w-75 row mt-5 pt-5">
                 {
-                    discountInfo.map(info => <InfoDscount info={info}></InfoDscount> )
+                    discountInfo.map(info => <InfoDiscount info={info}></InfoDiscount> )
                 }
             </div>
         </div>
