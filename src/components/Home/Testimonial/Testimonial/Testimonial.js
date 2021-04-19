@@ -20,7 +20,7 @@ const Testimonial = () => {
                     <h2 className=" mt-5" > What People Say about Us</h2>
                 </div>
 
-                <div className="row card-deck mt-5">
+                <div className="reviewDiv card-deck mt-5">
                     {
                         review.map(testimonial => <TestimonialInfo testimonial={testimonial} />)
                     }

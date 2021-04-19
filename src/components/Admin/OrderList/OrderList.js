@@ -43,7 +43,7 @@ const OrderList = () => {
                                 <td>{data.email}</td>
                                 <td>{data.destination}</td>
                                 <td>{data.payment.card.brand} {data.payment.type}</td>
-                                <td></td>
+                                <td>PENDING</td>
 
                             </tr>)
                         }
