@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../../../images/callum.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './TeamMemberCard.css'

@@ -15,8 +15,8 @@ const Home = () => {
             <Header/>
             <Discount/>
             <Tour/>
-            <TeamMember/>
             <Testimonial/>
+            <TeamMember/>
             <Footer/>                     
         </>
     );
